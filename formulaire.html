@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon formulaire</title>
+    <h1>Mon formulaire</h1>
+    <h2>1.premiere partie</h2>
+<link rel="stylesheet" href="formulaire.css">
+
+</head>
+
+
+<body>
+
+  <form action="">
+    <div>
+    <label for="fname">Pseudonyme:</label><br>
+    <input type="text" id="pseudonyme" name="exemple" placeholder="exemple"><br>
+    </div>
+
+    <div>
+    <label for="password">Mot de passe*</label>
+    <input type="password" id="password" placeholder="Mot de passe"required>
+    </div>
+
+    <div>
+    <label for="Email">Email:</label>
+    <input type="text" id="email" name="email" placeholder="Email"><br>
+    </div>
+    
+    
+    <label for="Photo">Photo:</label>
+    <input type="file" id="photo"><br>
+
+    <fieldset>
+
+      <legend> choix multiples</legend>
+
+      <label for="destination">Quelle destination choississez vous ?</label>
+      <input type="checkbox" name="ville1" id=>Italie
+      <input type="checkbox" name="ville2" id=>Tunisie
+      <input type="checkbox" name="ville3" id=>Espagne<br>
+
+      <label for="accompagnateurs">Qui seront vos accompagnateurs ?</label>
+      <input type="radio" name="accompagneteurs" id=accompagnateurs>En famille
+      <input type="radio" name="accompagneteurs" id=accompagnateurs checked>Entre amis
+      <input type="radio" name="accompagneteurs" id=accompagnateurs>Solo
+
+    </fieldset>
+    
+<label for="commentaire">commentaire</label><br>
+<textarea name="commentaire" id="commentaire" cols="80" rows="8"></textarea><br>
+
+<input type="submit" value=" Envoyer">
+<input type="submit" value=" Annuler">
+
+
+
+    </form>
+
+
+
+</body>
+
+
+</html>
