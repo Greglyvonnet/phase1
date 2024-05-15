@@ -1,0 +1,13 @@
+H1{
+background-color: rgb(209, 136, 193);
+height: 90px;
+
+}
+
+table, td {
+    border:5px solid;
+  }
+
+  th{
+    border: 2px solid;
+  }

@@ -7,11 +7,27 @@ label{
     color: blue;
     width:190px;
     float: left;
-
 }
 
 div :first-child{
     float: left;
-
 }
 
+.clear{
+    clear: both;
+}
+
+section{
+    background-color: yellow;
+    width: 400px;
+    height: 200px;
+    float: left;
+}
+
+section.green{
+    background-color: rgb(69, 202, 28);
+}
+
+.magin-top20{
+    margin-top: 20px;
+}
