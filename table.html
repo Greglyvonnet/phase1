@@ -1,32 +1,37 @@
 <!DOCTYPE html>
-<html>
-<style>
-
-
-</style>
+<html lang="fr">
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="css/tables.css">
-    
+  <!-- utiliser plutot: ligne pour creation multiple-->
+
+  <link rel="stylesheet" href="css/tables.css">
+  
+  <title>Document</title>
+
 </head>
+  
 
 <body style="width:70%">
-    
+  
 
-    <table>
-        
-    <h1>VENTES</h1>
-
+  <table>
     
+    <caption>VENTES</caption>
+      <thead>
 
         <tr>
-          <th>Jour </th>
+          <th>Jour</th>
           <th>Smartphone</th>
           <th>Tablette</th>
           <th>Portable</th>
         </tr>
-
+      </thead>
+      
+      <tbody>
+    
         <tr>
             <td>Lundi</td>
             <td>2</td>
@@ -62,14 +67,28 @@
             <td>7</td>
         </tr>
 
-        <tr>
-            <td>Total</td>
-            <td>22</td>
-            <td>26</td>
-            <td>24</td>
-        </tr>
+        
 
 
+      </tbody>   
+        
+          <tfoot>
+            <tr>
+              <td>Total</td>
+              <td>22</td>
+              <td>26</td>
+              <td>24</td>
+          </tr>
+          </tfoot>
+        
+         
+    </table>
 
-        </table>
+    <h2>Cell that spans two columns</h2>
+
+    <p>To make a cell span more than one column, use the colspan attribute.</p> 
+
+
+    
+    </html>
 

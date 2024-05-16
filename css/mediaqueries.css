@@ -1,0 +1,67 @@
+*{
+    text-align: center;
+}
+
+.content{
+
+background-color: orange;
+width: 50%;
+min-height: 500px;
+margin: auto;
+}
+
+header{
+
+    height: 150px;
+    background-color: blueviolet;
+}
+
+nav{
+
+    height: 100px;
+    background-color: aqua;
+}
+
+main section:first-child{
+    background-color: rgb(19, 153, 60);
+    height: 200px;
+}
+
+main section:nth-child(2)
+ {
+    background-color: brown;
+    height: 30px;
+}
+
+main section:last-child{
+    padding: 30px;
+    border:1px solid
+   
+}
+
+footer{
+    background-color: gray;
+    height: 80px;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+     .content{
+        background-color: rgb(216, 8, 42);
+    width: 100%;}
+    }
+
+
+@media only screen and (max-width: 600px) {
+        .content{
+           background-color: rgb(65, 190, 27);
+        width: 80%; }
+    }    
+
+@media only screen and (max-width: 500px) {
+        .content{
+           background-color: rgb(79, 13, 235);
+        width: 50%; }
+    }        
+
