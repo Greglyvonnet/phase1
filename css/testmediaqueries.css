@@ -1,0 +1,74 @@
+h1{
+background-color: crimson;
+height: 60px;
+}
+
+header{
+    background-color: rgb(57, 190, 190);
+}
+
+img{
+    width: 500px;
+    margin: auto;
+}
+
+h2{
+    background-color: orange;
+    display: none;
+} 
+
+nav{
+    background-color: blue;
+}
+
+main section:first-child{
+    background-color: blueviolet;
+}
+
+main section:nth-child(2){
+    background-color: chartreuse;
+}
+
+main section:last-child{
+    background-color: darkblue;
+
+}
+
+
+*{
+    text-align: center;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    *{
+    text-align: right; 
+    }
+    
+    img{ display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }    
+   }
+
+@media only screen and (max-width: 600px) {
+
+    *{
+        text-align: left;
+    }
+        h1.display_none{
+            display: none;
+        }
+        h2.display_block{
+            display: block;
+        }  
+        img{
+            width: 150px;
+
+        }
+      }
+      
+
+
+
