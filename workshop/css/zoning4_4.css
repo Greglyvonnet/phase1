@@ -1,0 +1,103 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#content {
+  width: 1400px;
+  border: 1px black solid;
+  background-color: grey;
+  min-height: 400px;
+  margin: auto;
+}
+
+header {
+  height: 60px;
+  background-color: red;
+  text-align: center;
+  line-height: 60px;
+}
+
+nav {
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  background-color: blue;
+}
+
+div .parent {
+  background-color: blanchedalmond;
+  padding: 10px 10px 30px 10px;
+  min-height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section {
+  min-height: 100px;
+  width: 50%;
+  /* flex-direction: row; */
+  background-color: blueviolet;
+  min-height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.carre {
+  width: 50%;
+  border: 1px white solid;
+  height: 130px;
+}
+
+section:first-child > div.carre {
+  background-color: brown;
+}
+
+section:nth-child(2) > div.carre {
+  background-color: aqua;
+}
+
+section:nth-child(3) > div.carre {
+  background-color: yellowgreen;
+}
+
+/* section:last-child > div.carre */
+section:nth-child(4) > div.carre {
+  background-color: rgb(25, 56, 56);
+}
+
+footer {
+  height: 70px;
+  text-align: center;
+  background-color: orange;
+  line-height: 70px;
+}
+
+/* 6- pour les écrans de moins de 1400px la largeur principale sera 80% 
+
+7- pour les écrans de moins de 960px la largeur principale 100% et la largeur des sections seront 100% 
+
+8- pour les écrans de moins de 560px : les div enfants des sections auront 100% de largeur  */
+
+@media (max-width: 1399.98px) {
+  #content {
+    width: 80%;
+  }
+}
+
+@media (max-width: 959.98px) {
+  #content {
+    width: 100%;
+  }
+
+  section {
+    width: 100%;
+  }
+}
+
+@media (max-width: 559.98px) {
+  .carre {
+    width: 100%;
+  }
+}

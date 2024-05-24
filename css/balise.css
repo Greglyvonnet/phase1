@@ -1,23 +1,26 @@
-header{
-    background-color: #900c3f;
-    height: 100px;
-}
-nav{
-    background-color: #daf7a6;
-    height: 60px;
-}
-body{
-    background-color: #f5deb3;
-}
-*{
-    text-align: right;/* aligne le texte à droite */
+header {
+  background-color: #900c3f;
+  height: 100px;
 }
 
-section:first-child{
-    background-color: navy;
-    height: 550px;
+nav {
+  background-color: #daf7a6;
+  height: 60px;
 }
-section{
-    background-color: yellow;
 
+body {
+  background-color: #f5deb3;
+}
+
+* {
+  text-align: right; /* aligne le texte à droite */
+}
+
+section:first-child {
+  background-color: navy;
+  height: 550px;
+}
+
+section {
+  background-color: yellow;
 }
