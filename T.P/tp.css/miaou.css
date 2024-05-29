@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: white;
+  background-color: rgb(43, 43, 137);
+  text-align: center;
+}
+
+main {
+  background-color: rgb(43, 43, 137);
+  margin: auto;
+  height: 900px;
+  width: 800px;
+}
+
+#chats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 80px;
+  text-align: center;
+  color: white;
+  justify-content: space-around;
+}
+
+@media (max-width: 449.98px) {
+  .main {
+    width: 100%;
+    background-color: red;
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto; */
+  }
+}
