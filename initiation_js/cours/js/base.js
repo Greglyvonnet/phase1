@@ -56,3 +56,14 @@ console.log(unChiffre);
 console.log(cetteAnnee);
 console.log(stringAddition);
 console.log(addition2Number);
+
+// type variables:
+//1- string
+//2- integer : 14, 5, ...
+//3- boolean true /false
+//4- float 12.56
+
+console.log(typeof stringAddition);
+var convertNumberToString = addition2Number.toString();
+console.log("voici addition2Number : " + typeof addition2Number);
+console.log(typeof convertNumberToString);
