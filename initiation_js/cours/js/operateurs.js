@@ -40,3 +40,4 @@ document.write(
 
 ///afficher le texte suivant sur la page du navigateur en utilisant les variables:
 // "le reste de la division de 100 par 17 est egal à: ? "
+
