@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* largeur global 1024 px */
+}
+
+
+#principal{
+width: 1024px;
+}
+
+header{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+.guide{
+    color:rgb(168, 159, 158);
+    /* text-align: centre le texte */
+    /* font-size: change la taille de la police */
+    font-size: small;
+}
+
+h1{
+text-align: center;
+}
+
+
+.liste{
+    display: flex;
+    margin:10px;
+    list-style: none;
+    
+}
+
+
+
+
+
+.assiette{
+    display: flex;
+    text-align: center;
+}
+
+
+
+
+img{
+
+}
+
+section{
+ /* display: flex; */
+}
+
+section>div{
+ width: 50%;
+}
+
+.service{
+}
+
+.dressage{
+
+}
+
+.gout{
+}
+
+
+
+
+
+
