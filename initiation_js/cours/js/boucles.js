@@ -73,15 +73,33 @@
 // 6- J'utilise la boucle "while" et j'affecte une condition afin de vérifier si la valeur de la réponse et (inférieur ou égale à 3) ou bien (suppérieur ou égale à 120). Tant que l'utilisateur ne saisie pas une valeur entre 4 et 119, la boîte de dialogue s'affichera
 // 7- Dans le cas contraire et en dehors de la boucle, je vérifie si l'age est suppérieur ou égale à 18 et inférieur à 120 : dans ce cas j'aurai le message :  "Bienvenue, vous êtes majeur" sinon : j'affiche une boîte de dialogue "Allez voir un autre super site..." et la redirection vers mon site préféré : "https://fr.boohoo.com/"
 
-var majoriterFR = 18;
-var age = window.prompt("Ecrivez votre age :");
-age = parseInt(age);
+// var majoriterFr = 18;
+
+// age = parseInt(age);
 
 // ou bien: var age = parsInt (window.prompt ("inserez votre age")
 
-while (age <= 3 || age >= 120) {
+var age = parseInt(window.prompt("Ecrivez votre age :"));
+
+var ageMin = 3;
+var ageMax = 120;
+var majoriteFr = 18;
+
+
+
+while (age <= ageMin || age >= ageMax) {
+    age = parseIn(window.prompt("Récrivez votre age :"));
 
 }
+if (age >= majoriteFr) {
+    document.write("Bienvenue sur mon site :)");
+} else {
+    alert("Vous êtes mineur");
+    window.location.href = "http//amazon.fr";
+}
+//     window.open("http//amazon.fr");
+//     alert()
+
 
 
 
